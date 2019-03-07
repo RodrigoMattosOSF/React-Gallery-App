@@ -1,5 +1,15 @@
 ## Project README
 
+This is a simple gallery app, the main App component handles context to other components while react router handles specifics filtering and redirection.
+
+On start the app preloads the information from the default screens, while loadings happens a state controls when the data is ready to be shown.
+
+After that there are two ways to consult new galleries, you can either use the search bar or type the desired tag as a url.
+
+Between each submit or load the state will change and a loading screen will appear until the data is ready.
+
+[GIT](https://github.com/RodrigoMattosOSF/React-Gallery-App1)
+
 #################
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
